@@ -18,15 +18,15 @@ public class Hp : MonoBehaviour
 
         if (hp>= 70)
         {
-            result.text = "<color=#3B7E3F>" + "安全"+ "</color>";
+            result.text = "<color=#007903>" + "安全"+ "</color>";
         }
         else if ( hp>= 30)
         {
-            result.text = "警告E7982B";
+            result.text = "<color=#E7982B>" + "警告"+ "</color>";
         }
         else
         {
-            result.text = "危險BA1D1F";
+            result.text = "<color=#BA1D1F>"+ "危險" + "</color>";
         }   
     }
 
