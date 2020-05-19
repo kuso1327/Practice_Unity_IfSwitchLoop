@@ -18,6 +18,19 @@ public class floor : MonoBehaviour
         }
     }
 
+    /*老師的方法
+        private void Start()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            for (int j = 0; j < (i+1); j++)
+            {
+                Vector3 pos = new Vector3(i * 2, j * 2, 0);
+                Instantiate(cube, pos,Quaternion.identity);
+            }
+        }
+    }
+    */
     private void Awake()
     {
         creatfloor(10);

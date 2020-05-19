@@ -308,7 +308,7 @@ MonoBehaviour:
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
-  m_DialogTitle: Input Text
+  m_DialogTitle: "\u8ACB\u8F38\u5165\u7D05\u6C34\u6216\u85CD\u6C34"
   m_DialogOkBtn: OK
   m_DialogCancelBtn: Cancel
   m_DialogType: 0
@@ -480,7 +480,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Inputtext: {fileID: 351377447}
   result: {fileID: 1307735367}
-  use: 
 --- !u!114 &618625983
 MonoBehaviour:
   m_ObjectHideFlags: 0
